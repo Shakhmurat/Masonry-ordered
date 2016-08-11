@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>flex</title>
+	<link rel="stylesheet" href="style.css">
+	<!--<script src="http://code.jquery.com/jquery-2.1.0.min.js"></script>-->
+	<script src="jquery-3.1.0.min.js"></script>
+	<script src="masonry-v2.js"></script>
+	<script src="masonry-ordered.js"></script>
+</head>
+<body>
+
+  <div class="container isotope" id="container">
+
+	<div class="box box1">1
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliqu
+		quis nostru exercitation ullamco laboris nisi ut aliq
+    </div>
+
+	<div class="box box2">2
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nis
+	</div>
+
+	<div class="box box3">3
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis au
+	</div>
+
+	<div class="box box4">4
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	</div>
+
+	<div class="box box5">5
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commod
+	</div>
+
+	<div class="box box6">6
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+	</div>
+
+	<div class="box box7">7
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	</div>
+
+	<div class="box box8">8
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+	</div>
+
+	<div class="box box9">9
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	</div>
+ 
+ 
+	<div class="box box10">10
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,	
+	</div>
+	
+	
+	<div class="box box11">11
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	</div>
+
+	<div class="box box12">12
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	</div>
+
+  </div>
+
+	<script>
+	$(function(){
+    
+    var $container = $('#container');
+    
+    $container.masonry({
+      itemSelector: '.box',
+      // columnWidth: 240,
+    });
+   });
+	</script>
+<!--<script src="https://npmcdn.com/isotope-layout@3.0/dist/isotope.pkgd.min.js"></script>
+<script>
+	var elem = document.querySelector('.container');
+var iso = new Isotope( elem, {
+  // options
+  itemSelector: '.box',
+  layoutMode: 'fitRows'
+});
+
+// element argument can be a selector string
+//   for an individual element
+var iso = new Isotope( '.container', {
+  // options
+});
+</script>
+
+</body>
+</html>
